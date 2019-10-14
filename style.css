@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif
+}
+
+.sectie {
+  padding: 2em;
+  border: 1px solid blue;
+  /*background-attachment: fixed; */
+  background-size: cover;
+}
+
+.sectie--achtergrond {
+  padding: 20vh 3em;
+  color: rgba(255,255,255, .5);
+  font-size: 2em;
+  text-shadow: 0 0 14px grey;
+  overflow-x: hidden;
+}
+
+.sectie--2 {
+  background-image: url("https://images.unsplash.com/photo-1465572089651-8fde36c892dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2666&q=80")
+}
+
+.sectie--4 {
+  background-image: url("https://images.unsplash.com/reserve/9Fx2auQ4yoHM8OpWA8qw__MG_5265.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80")
+}
+
+.sectie--4 span {
+  transition: margin-left 1s ease-out;
+}
+
+.sectie--4__kop span:nth-child(2) {
+  color: red;
+}
+.sectie--4__kop span:nth-child(1) {
+  margin-left: -300px;
+}
+
+.sectie--4__kop span:nth-child(2) {
+  margin-left: +700px;
+}
+
+.sectie--4__kop span:nth-child(3) {
+  margin-left: +1200px;
+}
+
+
+.sectie--6 {
+  background-image: url("https://images.unsplash.com/photo-1558000143-a78f8299c40b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80")
+}
